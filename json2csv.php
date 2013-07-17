@@ -1,3 +1,4 @@
+<?php
 /*
 2013 Measuring Broadband America Program
 Mobile Measurement Data JSON2CSV Application
@@ -40,8 +41,6 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 */
-
-<?php
 
 $arg = @$_SERVER['argv'][1];
 if (!file_exists($arg)) {
